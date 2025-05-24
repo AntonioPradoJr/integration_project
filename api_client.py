@@ -1,5 +1,6 @@
+import requests
+
 def get_price(crypto_name:str, currency:str) -> dict:
-    import requests
 
     url = "https://api.coingecko.com/api/v3/simple/price"
 
